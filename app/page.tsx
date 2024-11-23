@@ -6,7 +6,8 @@ import CoursesSection from "@/components/coursesSection/page"
 import TeamSection from "@/components/teamSection/page"
 import TestimonialsSection from "@/components/testonomial/page"
 import Footer from "@/components/footer/page"
-export default function () {
+
+ const HomePage = () => {
   return(
     <div>
       <Navbar></Navbar>
@@ -27,3 +28,5 @@ export default function () {
     </div>
   )
 }
+
+export default HomePage

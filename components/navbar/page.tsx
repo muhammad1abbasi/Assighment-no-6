@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import { useState} from 'react'
 
 const Navbar = () => {
@@ -11,7 +12,12 @@ const Navbar = () => {
   return (
     <nav className='bg-white shadow-md py-4'>
         <div className='max-w-screen-xl mx-auto flex justify-between items-center px-6'>
-            <h1 className='text-3xl font-bold text-black'>Ddsnr</h1>
+        <Image src="/images/Uniontwo.svg" alt='image is here' width={20} height={20} className=''/>
+        <Image src="/images/Union.svg" alt='image is here' width={20} height={20} className=''/>
+        
+            <h1 className='text-3xl font-bold text-black pr-60'>Ddsnr</h1>
+            
+            
 
             <button
             className='lg:hidden text-3xl text-black'
